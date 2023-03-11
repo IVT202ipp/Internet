@@ -1,0 +1,83 @@
+.page {
+    color: pink;
+}
+.header {
+    display: inline-block;
+}
+a {
+    font-size: 16px;
+    color: black;
+}
+h1 {   
+    height: 20px;
+    width: 70%;
+    text-align: center;
+    display: inline-block;
+}
+.nice {
+    
+    background-color: #d93f3f;
+    border: 2px solid black;
+}
+.lolmoment {
+    
+    width: 30%;
+    display: inline;
+}
+IMG.fig {
+    float: right;
+    width: 40%;
+    height: 900px;
+}
+section {
+    margin: 1px auto;
+}
+.Brief {
+    background-color: #a52a2a;
+	width: 60%;
+    height: 200px;
+	border: 2px solid black;
+	box-sizing: border-box;
+	padding: 20px;
+	font-size: 16px;
+	vertical-align: top;
+	display: inline-block;
+}
+.Bio {
+    background-color: #851f1f;
+    width: 60%;
+    height: 350px;
+	border: 2px solid black;
+	box-sizing: border-box;
+	padding: 20px;
+	font-size: 16px;
+	vertical-align: top;
+	display: inline-block;
+}
+.Activity {
+    background-color: #661b1b;
+    width: 60%;
+    height: 344px;
+	border: 2px solid black;
+	box-sizing: border-box;
+	padding: 20px;
+	font-size: 16px;
+	vertical-align: top;
+	display: inline-block;
+}
+.Links {
+    background-color: #360e0e;
+    width: 100%;
+	border: 2px solid black;
+	box-sizing: border-box;
+	padding: 20px;
+	font-size: 16px;
+	vertical-align: top;
+	display: inline-block;
+    margin: auto;
+}
+#Links {
+    margin: auto;
+}
+
+
