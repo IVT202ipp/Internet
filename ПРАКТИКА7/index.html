@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Rotate Earth</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="./js/script.js"></script>
+</head>
+<body>
+	<header class="header">
+		<nav class="menu">
+			<ul>
+			  <li><a href="#">ПОСЫЛКИ</a></li>
+			  <li><a href="#">УПАКОВКА</a></li>
+			  <li><a href="#">ПОДПИСКА</a></li>
+			</ul>
+		  </nav>	
+        <div class="logo">
+          <h1>МЕНЮ</h1>
+        </div>
+        
+		</header>
+	
+	<div class="page">
+		<form>
+			<div class="form" >
+				<label for="fname">Имя</label>
+				<br>
+				<input type="text" id="fname" name="fname">
+				<br>
+				<br>
+				<label for="lname">Город</label>
+				<br>
+				<input type="text" id="lname" name="lname">
+				<br>
+				<br>
+				<label for="lname">Посылка</label>
+				<br>
+				<input type="text" id="box" name="box">
+				<br>
+				<br>
+				<label for="email">Электронная почта</label>
+				<br>
+				<input type="email" id="email" name="email">
+			</div>
+				
+			<input type="submit" value="Отправить" class="submit" onclick="show()">			
+		</form>
+			
+	</div>
+	<div class="footer" style = "visibility:hidden" id = "aftersubmit">
+		<h1>ВАША ПОСЫЛКА УЖЕ В ПУТИ</h1>
+	</div>
+	
+	
+</body>
+</html>

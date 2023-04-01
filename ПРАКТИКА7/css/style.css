@@ -1,0 +1,139 @@
+@media(max-width: 500px) {
+	
+	.page {
+		width: 428px !important;
+		height: 850px !important;
+		background-position:center center !important;
+   		background-size:cover !important;
+	}
+
+	* {
+		box-sizing: border-box;
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 16px !important;
+		line-height: 28px;
+		color: #FFFFFF;
+	}
+	
+	.header {
+		padding: 6px !important;
+		width: 428px !important;
+		height: 80px !important;
+	}
+	.menu {
+		display: none !important;
+	}
+	.logo {
+		width: 400px !important;
+	}
+	.form {
+		width: 350px !important;
+		height: 459px !important;
+		left: 39px !important;
+		top: 129px !important;
+		border: 3px solid #FFFFFF !important;
+	}
+	input {
+		width: 263px !important;
+		height: 36px !important;
+	}
+	.submit {
+		width: 300px !important;
+		height: 80px !important;
+		left: 57px !important;
+		top: 678px !important;
+	}
+	.footer {	
+		width: 428px !important;
+		height: 78px !important;
+	}
+
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	color: #FFFFFF;
+}
+.page {
+	width: 1440px;
+	height: 896px;
+	background-image: url('../img/image.png'); 
+	background-size: 1440px 905px;
+	background-repeat: no-repeat;
+}
+.menu {
+	display: inline-block;
+    width: 80%;
+}
+.menu li {
+	margin-right: 5px;
+	display: inline;
+}
+.logo {
+	text-align: right;
+	width: 200px;
+	display: inline-block;
+}
+.header{
+	padding: 30px;
+	width: 1440px;
+	height: 130px;
+	left: 0px;
+	top: 0px;
+	background: #E17E7E;	
+}
+.form {
+	box-sizing: border-box;
+	position: absolute;
+	width: 400px;
+	height: 500px;
+	left: 86px;
+	top: 195px;
+	padding: 54px 52px 61px 48px;
+	background: #E17E7E;
+	border: 3px solid #FFFFFF;
+	border-radius: 20px;
+}
+
+input {
+	width: 300px;
+	height: 40px;
+	background-color: #E17E7E;
+	border: none;
+	border-bottom: 2px solid white;
+}
+
+.submit {
+	box-sizing: border-box;
+	position: absolute;
+	width: 300px;
+	height: 80px;
+	left: 136px;
+	top: 719px;
+	background: #E17E7E;
+	border: 5px solid #FFFFFF;
+	border-radius: 50px;
+
+}
+.footer {	
+	text-align: center;
+	width: 1440px;
+	height: 90px;
+	left: 0px;
+	top: 0px;
+	background: #E17E7E;
+}
+.footer h1 {
+	margin: 0;
+	padding-top: 20px;
+}
